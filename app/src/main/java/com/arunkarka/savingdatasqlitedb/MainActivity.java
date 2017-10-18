@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         if (dbExists) {
             Toast.makeText(this, "Student DB was already created.", Toast.LENGTH_SHORT).show();
         } else {
+            FeedReaderDbHelper mDbHelper = new FeedReaderDbHelper(this);
             dbExists = true;
             Toast.makeText(this, "Student DB created", Toast.LENGTH_SHORT).show();
         }
