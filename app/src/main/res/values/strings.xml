@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SavingDataSQLiteDB</string>
+    <string name="create_db">Create student DB</string>
+    <string name="delete_db">Delete Student DB</string>
+    <string name="add_record_db">Add record</string>
+    <string name="delete_record_id">Delete Record by ID</string>
+    <string name="modify_record_id">Modify Record by ID</string>
 </resources>
